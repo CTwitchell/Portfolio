@@ -1,0 +1,52 @@
+* {
+    margin: -2px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap
+}
+
+div {
+    padding: 0px;
+    margin: -2px;
+}
+
+.row1, .row2 {
+    width: 101%;
+    display: block;
+}
+
+.tile2,
+.tile4 {
+    width: 25%;
+    height: 350px;
+    background-color: #3A3A3A;
+    display: inline-block;
+    padding: 0px;
+}
+
+.tile1,
+.tile3 {
+    width: 25%;
+    height: 350px;
+    background-color: black;
+    display: inline-block;
+    padding: 0px;
+}
+
+.tile5, .tile6, .tile7 {
+    width: 25%;
+    height: 350px;
+    background-color: #3A3A3A;
+    display: inline-block
+}
+
+.tile8 {
+    width: 25%;
+    height: 350px;
+    background-color: black;
+    display: inline-block
+}
