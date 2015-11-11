@@ -17,13 +17,14 @@ div {
 
 .lineblack1, .lineblack2, .lineblack3, .lineblack4 {
     overflow: auto;
-    position: fixed;
+    position: absolute;
     margin: 90px;
     margin-left: -90px;
     width: 410px;
     height: 50px;
     background-color: black;
     -webkit-transform:rotate(-45deg);
+     clip: rect(top, right, bottom, left);
 }
 
 .linegray1, .linegray2, .linegray3, .linegray4 {
@@ -35,6 +36,7 @@ div {
     height: 50px;
     background-color: #3a3a3a;
     -webkit-transform:rotate(45deg);
+     clip: rect(top, right, bottom, left);
 }
 
 .linegray2 {
@@ -64,6 +66,7 @@ div {
     background-color: #3A3A3A;
     display: inline-block;
     padding: 0px;
+    clip: rect(top, right, bottom, left);
 }
 
 .tile1,
@@ -73,6 +76,7 @@ div {
     background-color: black;
     display: inline-block;
     padding: 0px;
+    clip: rect(top, right, bottom, left);
 }
 
 .tile5, .tile6, .tile7, .tile11 {
