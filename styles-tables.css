@@ -4,15 +4,23 @@ body {
 }
 
 .name {
-    margin-top: 25%;
+    margin-top: 10%;
     height: 50%;
-    font-size: 55px;
+    font-size: 100px;
     text-align: center;
+}
+
+.resume {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 125px;
+    height: auto;
+    background-color: #3a3a3a;
+    width: 100%;
 }
 
 table,
 tr,
-td,
 body {
     width: 100%;
     margin: 0px;
@@ -21,12 +29,46 @@ body {
     border-spacing: 0px;
 }
 
-
+td {
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    border-spacing: 0px;
 }
+
+.vlineblack1,
+.vlineblack2,
+.vlineblack3,
+.vlineblack4,
+.vlineblack5,
+.vlineblack6 {
+    width: 36.5px;
+    height: 100%;
+    margin-left: 36.5px;
+    margin-top: 0px;
+    background-color: black;
+    display: inline-block
+}
+
+.vlinegray1,
+.vlinegray2,
+.vlinegray3,
+.vlinegray4,
+.vlinegray5,
+.vlinegray6 {
+    width: 36.5px;
+    margin-left: 36.5px;
+    height: 100%;
+    background-color: #3a3a3a;
+    display: inline-block;
+}
+
 div {
     margin: 0;
     padding: 0;
 }
+
 .lineblack1,
 .lineblack2,
 .lineblack3,
@@ -36,6 +78,7 @@ div {
     height: 35px;
     background-color: black;
 }
+
 .linegray1,
 .linegray2,
 .linegray3,
@@ -46,61 +89,55 @@ div {
     height: 35px;
     background-color: #3a3a3a;
 }
-.pointright1,
-.pointright2,
-.pointright3,
-.pointright4,
-.pointright5 {
-    width: 50%;
-    margin-top: 65px;
-    height: 35px;
-    background-color: black;
-    -webkit-transform: rotate(45deg);
-}
-.pointleft1,
-.pointleft2,
-.pointleft3,
-.pointleft4,
-.pointleft5 {
-    width: 50%;
-    margin-top: 65px;
-    height: 35px;
-    background-color: black;
-    -webkit-transform: rotate(-45deg);
+
+.tile11 {
+    height: 350px;
+    background-color: #3A3A3A;
+    font-size: 0px;
+    display: inline-block;
+
 }
 
-.rightside,
-.leftside {
- display: inline-block;  
-}
-
- .tile6-7{
+.tile6-7 {
     width: 50%;
     height: 350px;
     background-color: #3A3A3A;
     display: inline-block;
 }
+
 .tile2,
 .tile4,
 .tile5,
 .tile6,
 .tile7,
-.tile11 {
-    width: 25%;
+.tile16,
+.tile17,
+.tile18,
+.tile20,
+.tile23,
+.tile24 {
     height: 350px;
     background-color: #3A3A3A;
     font-size: 0px;
     display: inline-block;
+    overflow: hidden;
 }
+
 .tile1,
 .tile3,
 .tile8,
 .tile9,
 .tile10,
-.tile12 {
-    width: 25%;
+.tile12,
+.tile13,
+.tile14,
+.tile15,
+.tile19,
+.tile21,
+.tile22 {
     height: 350px;
     background-color: black;
     display: inline-block;
     font-size: 0px;
+    overflow: hidden
 }
