@@ -22,6 +22,21 @@ div {
     padding: 0;
 }
 
+.resumedisplay {
+    display: block;
+    width: 100%;
+}
+
+.resumedisplaybox {
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+}
+
 .lineblack1,
 .lineblack2,
 .lineblack3,
