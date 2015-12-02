@@ -10,7 +10,8 @@ body {
     text-align: center;
 }
 
-.resume, .about {
+.resume,
+.about {
     text-align: center;
     font-size: 50px;
     margin-top: 125px;
@@ -40,9 +41,10 @@ td {
     border-spacing: 0px;
 }
 
-.tile12, .tile16, .tile24 {
+.tile20,
+.tile12,
+.tile4 {
     position: absolute;
-    
 }
 
 .tile11 {
@@ -53,21 +55,28 @@ td {
     display: inline-block;
 }
 
-.resumedisplay, .aboutdisplay {
-    display: block;
+.resumedisplay,
+.aboutdisplay {
     width: 100%;
     background-color: #3a3a3a;
-}
-
-.resumedisplaybox, .aboutdisplaybox {
-    width: 100%;
-    height: 0px;
     display: inline-block;
 }
 
+.resumedisplaybox {
+    width: 100%;
+    height: 650px;
+    display: none;
+    overflow: scroll!important;
+}
+
+.aboutdisplaybox {
+    width: 80%;
+    height: 1100px;
+    display: none;
+}
+
 .close,
-.close2,
-.close3{
+.close3 {
     background-color: #3a3a3a;
     height: 30px;
     width: 20%;
@@ -75,11 +84,24 @@ td {
     border-color: black;
 }
 
+.close2 {
+    background-color: black;
+    height: 30px;
+    width: 20%;
+    margin-left: 80%;
+    border-color: #3a3a3a;
+    color: #3a3a3a;
+    border-style: solid;
+}
+
 .download {
     width: 20%;
     margin: auto;
     background-color: #3a3a3a;
-    border-color: black
+    border-color: black;
+}
+.downloadtext{
+    color: black;
 }
 
 .speed {
@@ -88,7 +110,6 @@ td {
 }
 
 p {
-
     padding-left: 75px;
     padding-right: 75px;
     text-align: center;
@@ -99,13 +120,12 @@ p {
 a {
     text-align: center;
     font-size: 25px;
-    color: black
+    color: #3a3a3a;
 }
 
 .skate {
     width: 560px;
     margin: auto;
-    
 }
 
 .left {
@@ -122,15 +142,17 @@ a {
 }
 
 .projectdisplay {
-    width: 100%;
-    display: block;
+    width: 100% !important;
+    display: inline-block;
+    background-color: black;
 }
 
 .projectdisplaybox {
-    width: 100%;
-    height: 0px;
-    display: inline-block;
-    background-color: #3a3a3a;
+    margin: auto;
+    width: 10%;
+    height: 150px;
+    display: none;
+    background-color: black;
 }
 
 .vlineblack1,
@@ -186,7 +208,6 @@ div {
     background-color: #3a3a3a;
 }
 
-
 .tile6-7 {
     width: 50%;
     height: 350px;
@@ -210,7 +231,7 @@ div {
     font-size: 0px;
     display: inline-block;
     overflow: hidden;
-     width: 25%;
+    width: 25%;
 }
 
 .tile1,
@@ -230,5 +251,5 @@ div {
     display: inline-block;
     font-size: 0px;
     overflow: hidden;
-     width: 25%;
+    width: 25%;
 }

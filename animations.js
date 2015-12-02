@@ -1,60 +1,60 @@
 $(document).ready(function () {
 
-    $(".tile11").hover(function () {
-        $(".tile9").animate({width: '15%'}, "slow");
-         $(".tile10").animate({width: '15%'},  "slow");
-         $(".tile12").animate({width: '15%'},  "slow");
-         $(".tile11").animate({width: '55%'},  "slow");
+    $(".tile18").hover(function () {
+        $(".tile17").animate({width: '15%'}, "fast");
+         $(".tile19").animate({width: '15%'},  "fast");
+         $(".tile20").animate({width: '15%'},  "fast");
+         $(".tile18").animate({width: '55%'},  "fast");
         $(".resume").css("font-size", "75px");
     }, function () {
-        $(".tile9").animate({width: '25%'}, "slow");
-        $(".tile10").animate({width: '25%'}, "slow");
-         $(".tile11").animate({width: '25%'},  "slow");
-         $(".tile12").animate({width: '25%'}, "slow");
+        $(".tile17").animate({width: '25%'}, "fast");
+        $(".tile18").animate({width: '25%'}, "fast");
+         $(".tile19").animate({width: '25%'},  "fast");
+         $(".tile20").animate({width: '25%'}, "fast");
         $(".resume").css("font-size", "55px");
     });
-    $(".tile11").click(function () {
-        $(".resumedisplaybox").animate({height: '25%'}, "slow");
+    $(".tile18").click(function () {
+        $(".resumedisplaybox").toggle({display: 'inline-block'}, "slow");
     });
     $(".close").click(function () {
-        $(".resumedisplaybox").animate({height: '0'}, "slow")
+        $(".resumedisplaybox").toggle({display: 'inline-block'}, "slow");
     });
-    $(".tile14").hover(function () {
-        $(".tile13").animate({width: '15%'}, "400");
-         $(".tile14").animate({width: '55%'}, "400");
-         $(".tile15").animate({width: '15%'}, "400");
-         $(".tile16").animate({width: '15%'}, "slow");
+    $(".tile9").hover(function () {
+        $(".tile10").animate({width: '15%'}, "fast");
+         $(".tile9").animate({width: '55%'}, "fast");
+         $(".tile11").animate({width: '15%'}, "fast");
+         $(".tile12").animate({width: '15%'}, "fast");
         $(".projects").animate("font-size", "75px");
     }, function () {
-        $(".tile13").animate({width: '25%'}, "400");
-        $(".tile14").animate({width: '25%'}, "400");
-         $(".tile15").animate({width: '25%'}, "400");
-         $(".tile16").animate({width: '25%'}, "400");
+        $(".tile9").animate({width: '25%'}, "fast");
+        $(".tile10").animate({width: '25%'}, "fast");
+         $(".tile11").animate({width: '25%'}, "fast");
+         $(".tile12").animate({width: '25%'}, "fast");
         $(".projects").animate("font-size", "55px");
     });
-     $(".tile14").click(function () {
-        $(".projectdisplaybox").animate({height: '150'}, "slow")
+     $(".tile9").click(function () {
+        $(".projectdisplaybox").toggle({display: 'inline-block'}, "slow")
     });
     $(".close2").click(function () {
-        $(".projectdisplaybox").animate({height: '0'}, "slow")
+        $(".projectdisplaybox").toggle({display: 'inline-block'}, "slow")
     });
-    $(".tile23").hover(function () {
-        $(".tile21").animate({width: '15%'}, "slow");
-         $(".tile22").animate({width: '15%'},  "slow");
-         $(".tile24").animate({width: '15%'},  "slow");
-         $(".tile23").animate({width: '55%'},  "slow");
-        $(".about").css("font-size", "75px", "slow");
+    $(".tile4").hover(function () {
+        $(".tile1").animate({width: '15%'}, "fast");
+         $(".tile2").animate({width: '15%'},  "fast");
+         $(".tile3").animate({width: '15%'},  "fast");
+         $(".tile4").animate({width: '55%'},  "fast");
+        $(".about").css("font-size", "75px", "fast");
     }, function () {
-        $(".tile21").animate({width: '25%'}, "slow");
-        $(".tile22").animate({width: '25%'}, "slow");
-         $(".tile24").animate({width: '25%'},  "slow");
-         $(".tile23").animate({width: '25%'}, "slow");
+        $(".tile1").animate({width: '25%'}, "fast");
+        $(".tile2").animate({width: '25%'}, "fast");
+         $(".tile4").animate({width: '25%'},  "fast");
+         $(".tile3").animate({width: '25%'}, "fast");
         $(".about").css("font-size", "55px");
     });
-     $(".tile23").click(function () {
-        $(".aboutdisplaybox").animate({height: '15%'}, "slow");
+     $(".tile4").click(function () {
+        $(".aboutdisplaybox").toggle({display: 'inline-block'}, "slow");
     });
     $(".close3").click(function () {
-        $(".aboutdisplaybox").animate({height: '0'}, "slow")
+        $(".aboutdisplaybox").toggle({display: 'inline-block'}, "slow");
     });
 });
