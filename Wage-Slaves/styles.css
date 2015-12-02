@@ -1,0 +1,128 @@
+html {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#nav {
+    background-color: #3b3b3b;
+    text-align: center;
+    width: 90%;
+    margin: auto
+}
+
+.nav a:link,
+#table-head {
+    text-shadow: 1px 1px 2px gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#home,
+#about {
+    border-right: solid;
+    border-width: 2px;
+}
+
+#home,
+#about,
+#members {
+    width: 30%;
+}
+
+a:link,
+a:visited {
+    color: White;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+.info,
+.contact-info,
+#req {
+    text-align: center;
+    font-size: 20px;
+}
+
+#req-li, .contact-info {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.name,
+.nickname,
+.minecraft,
+.line,
+.steam {
+    color: white;
+    text-align: center;
+    background-color: #3b3b3b;
+    border: 2px solid #000000
+}
+
+#members-table {
+    margin: auto;
+}
+
+#Cody,
+#Nick,
+#Justin,
+#Greg,
+#Chris,
+#MK,
+#Face,
+#Clint,
+#Devyn {
+    border: 2px solid #3b3b3b;
+    text-align: center;
+}
+
+#members-td {
+    border: 2px solid #3b3b3b;
+    text-align: center;
+}
+
+p,
+h3 {
+    text-align: center;
+}
+
+#news,
+#join {
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    background-color: #3b3b3b;
+}
+
+#news tr {
+    border: 2px solid #3b3b3b;
+}
+#body {
+    width: 80%;
+    margin: auto
+    
+}
